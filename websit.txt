@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+
+
+            <link rel="stylesheet" type="text/css" href="style2.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+            <style>
+              ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+                body{
+              background-color: #cccccc;
+              background-image: url("p1.jpg");
+              height: 500px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-attachment: fixed;
+
+        }
+
+  .back
+{
+  background-color:rgb(200,200,250);
+  background-image:url("p2,jpg");
+
+         width: 500;
+        background-size: cover;
+
+
+}
+  .heading{
+      background-color:whitesmoke;
+
+  }
+  .red_text{
+      color:rosybrown;
+  }
+  .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+            </style>
+</head>
+
+
+
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="">Categories </a></li>
+  <li><a href="">Contact        </a></li>
+  <li><a href="">About      </a></li>
+</ul>
+  <center><font size="40" >
+    <br></br>
+
+  <p style="color:thistle">Keep your skill alive.</p>
+</font>
+</center>
+<center><div class="button"
+  <button  style="color:black"  onclick="myFunction10()">GET IN </button> <br>
+
+  <script>
+
+  function myFunction10() {
+    location.href="signin.html";
+  }
+  </script>
+  </script>
+      </body>
+
+</html>
